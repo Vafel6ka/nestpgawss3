@@ -21,7 +21,7 @@
     "db:migrate": "prisma migrate dev",
     "db:generate": "prisma generate",
     "db:deploy": "prisma migrate deploy",
-    "db:studio": "prisma studio",
+    "db:studio": "DATABASE_URL='postgresql://bdadmin:QwertY123!@prismatest.csx868camz3x.us-east-1.rds.amazonaws.com:5432/prismatest?sslmode=require' PGSSLROOTCERT=./certs/us-east-1-bundle.pem prisma studio",
     "create:module": "nest g module",
     "create:service": "nest g service",
     "create:controller": "nest g controller"

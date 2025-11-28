@@ -12,6 +12,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
+  // url      = env("DATABASE_URL") // dummy for VSCode, Prisma v7 ignores Працює 7 прізма і без цього але еррор так не підсвічує
 }
 
 model User {
